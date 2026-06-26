@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/data-newcaledonia",
+  "title": "Data Newcaledonia",
+  "description": "New Caledonia Open Data (data.gouv.nc) — OpenDataSoft MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/data-newcaledonia",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-data-newcaledonia",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/data-newcaledonia/mcp"
+    }
+  ]
+}
